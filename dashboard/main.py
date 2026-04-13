@@ -125,7 +125,7 @@ with st.sidebar:
         st.info("No conversations yet", icon="💬")
 
 # ==================== MAIN AREA - TWO COLUMNS ====================
-st.title("💬 ChatBot")
+st.title("SentioAI")
 
 # Create two columns: Left (Chat) | Right (Analytics)
 col_chat, col_analytics = st.columns([3.5, 1])
