@@ -1,5 +1,5 @@
 # Web Framework
-streamlit==1.41.1
+streamlit==1.28.1
 
 # LangChain & LLM
 langchain==0.1.0
@@ -15,5 +15,6 @@ beautifulsoup4==4.12.2
 # Logging
 python-json-logger==2.0.7
 
-# Protobuf fix for Python compatibility
-protobuf==4.24.0
+# Protobuf - Must be older version for compatibility
+protobuf==3.20.0
+grpcio==1.56.0
