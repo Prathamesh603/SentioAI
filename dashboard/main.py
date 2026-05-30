@@ -133,7 +133,7 @@ col_chat, col_analytics = st.columns([3.5, 1])
 # ==================== LEFT COLUMN - CHAT INTERFACE ====================
 with col_chat:
     # Chat display area (scrollable)
-    with st.container(height=500, border=False):
+    with st.container(border=False):
         if messages:
             for msg in messages:
                 if msg["role"] == "user":
