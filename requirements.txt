@@ -4,7 +4,6 @@ streamlit==1.28.1
 # LangChain & LLM
 langchain==0.1.0
 langchain-groq==0.0.1
-langchain-core==0.1.0
 
 # Environment & Utilities
 python-dotenv==1.0.0
