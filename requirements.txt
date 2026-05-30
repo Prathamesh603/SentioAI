@@ -1,7 +1,17 @@
+# Web Framework
 streamlit==1.28.1
+
+# LangChain & LLM
 langchain==0.1.0
 langchain-groq==0.0.1
 langchain-core==0.1.0
+
+# Environment & Utilities
 python-dotenv==1.0.0
+
+# Web Scraping
 requests==2.31.0
 beautifulsoup4==4.12.2
+
+# Logging
+python-json-logger==2.0.7
