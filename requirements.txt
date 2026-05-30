@@ -1,8 +1,3 @@
-"""
-Requirements for Sentiment Analysis Chatbot Project
-All dependencies required to run the application
-"""
-
 streamlit==1.28.1
 langchain==0.1.0
 langchain-groq==0.0.1
