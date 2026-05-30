@@ -3,7 +3,7 @@ services:
     name: sentiment-analysis-chatbot
     env: python
     plan: starter
-    runtime: python-3.11
+    runtime: python-3.12
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run dashboard/main.py --server.port=$PORT --server.address=0.0.0.0
     envVars:
